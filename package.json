@@ -1,0 +1,31 @@
+{
+  "name": "stopwatch-react-es6",
+  "version": "1.0.0",
+  "description": "stopwatch app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.js --watch --out-file script-compiled.js"
+  },
+  "author": "Piotr Sociński",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-standalone": "^6.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socza/stopwatch-react-es6.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/socza/stopwatch-react-es6/issues"
+  },
+  "homepage": "https://github.com/socza/stopwatch-react-es6#readme"
+}
